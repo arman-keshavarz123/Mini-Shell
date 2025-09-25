@@ -1,6 +1,6 @@
-# NYU Shell (nyush)
+# Mini Shell (nyush)
 
-A Unix shell implementation written in C as part of an Operating Systems course project. This shell provides a comprehensive command-line interface with advanced features including job control, piping, I/O redirection, and built-in commands.
+A Unix shell implementation written in C as part of an Operating Systems project. This shell provides a comprehensive command-line interface with advanced features including job control, piping, I/O redirection, and built-in commands.
 
 ## Features
 
@@ -146,27 +146,3 @@ The shell has been tested with various command combinations and edge cases inclu
 - Job control operations
 - Error condition handling
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Academic Context
-
-This project was developed as part of an Operating Systems course, demonstrating understanding of:
-- Process management and control
-- Inter-process communication
-- Signal handling
-- File I/O operations
-- System programming concepts
-
-## Contributing
-
-This is an academic project, but suggestions and improvements are welcome. Please ensure any contributions maintain the educational value and code quality standards.
-
-## Known Limitations
-
-- Maximum job limit of 100
-- Limited to `/usr/bin/` for program resolution
-- No history functionality
-- No tab completion
-- No aliases support
